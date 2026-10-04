@@ -1,0 +1,36 @@
+[
+  {
+    "run_id": "475ac0da",
+    "timestamp": "2026-09-02T21:05:27Z",
+    "file_name": "sample_orders_small.csv",
+    "file_path": "H:\\big data\\data\\sample_orders_small.csv",
+    "file_size_mb": 41.77,
+    "routing_reason": "File size (41.77 MB) is <= threshold (200 MB). Selected PYTHON_BATCH for zero-overhead streaming and low memory footprint.",
+    "engine_used": "python_batch",
+    "rows_read": 100000,
+    "raw_loaded": 100000,
+    "valid_count": 0,
+    "corrected_count": 95128,
+    "quarantine_count": 4872,
+    "is_consistent": true,
+    "inserted_count": 87454,
+    "updated_count": 7674,
+    "unchanged_count": 0,
+    "error_case_counts": {
+      "MISSING_CUSTOMER_ID": 1411,
+      "CORRUPTED_ITEMS_JSON": 1338,
+      "UNKNOWN_PRICE": 674,
+      "MULTIPLE_CONFLICTING_ERRORS": 674,
+      "AMBIGUOUS_NEGATIVE_VALUE": 677,
+      "MISSING_ORDER_ID": 721,
+      "EMPTY_ITEMS": 677,
+      "INVALID_IMPOSSIBLE_DATE": 722
+    },
+    "batch_size": 2000,
+    "elapsed_seconds": 83.34,
+    "throughput": 1199.87,
+    "mem_start_mb": 28.2,
+    "mem_end_mb": 45.74,
+    "mem_delta_mb": 17.54
+  }
+]

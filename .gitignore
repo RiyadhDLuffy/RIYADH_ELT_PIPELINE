@@ -1,0 +1,34 @@
+# Large raw data files (> 100MB not suitable for GitHub)
+orders_huge_mixed_quality.csv
+data/*.csv
+*.csv.gz
+*.tar.gz
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / Editor configs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spark event logs
+metastore_db/
+derby.log
+spark-warehouse/
